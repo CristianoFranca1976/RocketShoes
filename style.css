@@ -1,0 +1,256 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+   
+}
+
+.container {
+
+    display: flex;
+    width: 1440px;
+    height: 1080px;
+    background: #ECECED;
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    position: absolute;
+    display: flex;
+    width: 1320px;
+    height: 48px;
+    margin-top: 39px;
+    margin-left: 60px;
+    background-color: transparent;   
+   
+}
+
+ul {
+    list-style: none; 
+    margin-top: 0;
+       
+}
+
+.img1 {
+    
+    width: 52px;
+    height: 36.397px;
+    margin-top: 0;
+}
+
+
+ a{
+    
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 85px;
+    
+    color: #000;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    
+}
+
+.main {
+    
+    width: 900px;
+    height: 914px;
+    background: #C4C4C4;
+    margin-left: 72px;
+    
+
+}
+
+form {
+   
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+input[type="text"] {
+
+    padding-left: 42px;
+    border-radius: 4px;
+    width: 220px;
+    height: 45px;
+    background-image: url(assets/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position:  13px;
+    
+}
+
+.img2 {
+    
+    width: 34px;
+    height: 34px;
+    margin-left: 74px;
+
+}
+
+.img3{
+    
+    width: 597px;
+    height: 510.824px;
+    margin-top: 174.68px;
+    margin-left: 157px;
+}
+
+.img4 {
+    width: 269.514px;
+    height: 182.8px;
+    margin-left: 18px;
+}
+
+.img5 {
+    width: 250px;
+    height: 182.8px; 
+    margin-left: 37.49px;
+    border: 5px;
+    border-color: red;
+    border-bottom-style: solid;
+}
+
+.img6 {
+    width: 270px;
+    height: 182.8px;
+    margin-left: 37px;
+}
+
+.preco { 
+    display: block;
+    width: 357px;
+    height: 533px;
+    margin-left: 111px;
+    margin-top: 190px;
+
+
+}
+
+h1 {
+    
+    color: #000;
+    font-size: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 21px;
+    
+}
+
+p {
+    
+    color: #9C9696;
+    font-size: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 21px;
+    
+}
+
+p1 {
+    position: absolute;
+    color: #000;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+    
+}
+
+.botton{
+    position: absolute;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-align: center;
+    align-items: center;
+    background: red;
+    padding: 33px 79px 33px 75px;
+    margin-left: 0px;
+    margin-top: 65px; 
+
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 166.331px;
+    margin-top: 914px;
+    margin-left: 0;
+    background-image: url(./assets/img-video.png);
+    background-repeat: no-repeat;
+
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    text-decoration: none;
+    
+
+}
+
+footer li a {
+    color: #000;
+font-size: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.explore  {
+    display: flex;
+    position: absolute;
+    width: 437px;
+    height: 166px;
+    background: #000;
+    margin-left: 1003px;
+    background-image: url(assets/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-position-x: 297px;
+    background-position-y: 73px;
+
+    
+}
+
+.explore  a {
+    position: absolute;
+    width: 167px;
+    height: 28px;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 71px 1554px 67px 115px;
+
+}
+
